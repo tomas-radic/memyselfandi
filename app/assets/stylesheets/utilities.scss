@@ -1,0 +1,32 @@
+.fs-heading {
+  @extend .pt-sans-bold;
+
+  font-size: 3rem;
+}
+
+.fs-subheading {
+  font-size: 1.9rem;
+}
+
+.fs-minor {
+  font-size: 0.8rem;
+}
+
+.metallic-dark {
+  background-color: $color-metallic-dark;
+  color: $color-white;
+}
+
+.metallic-light {
+  background-color: $color-metallic-light;
+  color: $color-graphit;
+}
+
+.fire {
+  background-color: $color-fire;
+  color: $color-white;
+}
+
+.text-justify {
+  text-justify: auto;
+}

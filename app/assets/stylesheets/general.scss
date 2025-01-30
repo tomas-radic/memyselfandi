@@ -1,0 +1,32 @@
+html {
+  font-size: 120%;
+}
+
+.page {
+  @extend .pt-sans-regular;
+
+  line-height: 1.25;
+  background-color: $color-graphit;
+  color:$color-silver;
+
+  // Sticky footer ---
+  //height: 100vh;
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: space-between;
+}
+
+.box {
+  padding: 18px 18px;
+  min-height: 400px;
+}
+
+.rounded-box {
+  margin: 1px 0;
+  border-radius: 0;
+
+  @media (min-width: $bp-desktop) {
+    margin: 4px;
+    border-radius: 28px;
+  }
+}
