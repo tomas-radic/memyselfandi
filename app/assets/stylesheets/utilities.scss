@@ -8,23 +8,24 @@
   font-size: 1.9rem;
 }
 
+.fs-dominant {
+  font-size: 1.35rem;
+}
+
 .fs-minor {
   font-size: 0.8rem;
 }
 
-.metallic-dark {
-  background-color: $color-metallic-dark;
+.fc-silver {
+  color: $color-silver;
+}
+
+.fc-white {
   color: $color-white;
 }
 
-.metallic-light {
-  background-color: $color-metallic-light;
-  color: $color-graphit;
-}
-
-.fire {
-  background-color: $color-fire;
-  color: $color-white;
+.fc-fire {
+  color: $color-fire;
 }
 
 .text-justify {

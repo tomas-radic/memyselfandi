@@ -2,23 +2,48 @@
   background-color: $color-metallic-dark;
   color: $color-white;
 
-  //.subheading {
-  //  @extend .pt-sans-bold-italic;
-  //  @extend .fs-subheading;
-  //  @extend .mt-4;
-  //
-  //  color: $color-pink;
-  //}
+  .subheading {
+    @extend .pt-sans-bold-italic;
+    @extend .fs-subheading;
+
+    color: $color-yellow;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .palette2 {
   background-color: $color-metallic-light;
   color: $color-graphit;
+
+  .subheading {
+    @extend .pt-sans-bold-italic;
+    @extend .fs-subheading;
+
+    color: $color-fire;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .palette3 {
   background-color: $color-fire;
   color: $color-white;
+
+  .subheading {
+    @extend .pt-sans-bold-italic;
+    @extend .fs-subheading;
+
+    color: $color-yellow;
+  }
+
+  a {
+    text-decoration: none;
+  }
 }
 
 .palette4 {

@@ -42,7 +42,6 @@ gem "thruster", require: false
 
 gem 'pg'
 gem "dartsass-rails"
-# gem 'sassc-rails'
 gem "bootstrap", "~> 5.3.3"
 
 group :development, :test do

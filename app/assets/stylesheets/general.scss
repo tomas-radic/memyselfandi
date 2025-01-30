@@ -9,24 +9,34 @@ html {
   background-color: $color-graphit;
   color:$color-silver;
 
-  // Sticky footer ---
+  // Sticky footer --- v
   //height: 100vh;
   //display: flex;
   //flex-direction: column;
   //justify-content: space-between;
+  // Sticky footer --- ^
 }
 
 .box {
   padding: 18px 18px;
-  min-height: 400px;
+  //min-height: 400px;
 }
 
 .rounded-box {
-  margin: 1px 0;
+  margin: 0 0 1px 0;
   border-radius: 0;
 
   @media (min-width: $bp-desktop) {
     margin: 4px;
     border-radius: 28px;
+  }
+}
+
+ul {
+  list-style-type: circle;
+  margin-top: 0.7rem;
+
+  li {
+    margin-top: 0.2rem;
   }
 }

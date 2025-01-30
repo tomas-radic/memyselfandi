@@ -5,7 +5,7 @@
   @media (min-width: $bp-desktop) {
     display: grid;
     grid-template-columns: [left] 1fr [mid] 1fr [right];
-    grid-template-rows: [top] auto [skills] auto [about] auto [experience] auto [volunteering] auto [awards education] auto [bottom];
+    grid-template-rows: [top] 550px [skills] 340px [about] 800px [experience] 300px [volunteering] 300px [awards education] 500px [bottom];
   }
 }
 
