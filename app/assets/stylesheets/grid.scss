@@ -5,7 +5,7 @@
   @media (min-width: $bp-desktop) {
     display: grid;
     grid-template-columns: [left] 1fr [mid] 1fr [right];
-    grid-template-rows: [top] 550px [skills] 340px [about] 800px [experience] 300px [volunteering] 300px [awards education] 500px [bottom];
+    grid-template-rows: [top] 9fr [skills] 5fr [about] 10fr [volunteering] 8fr [awards] 7fr [interests] 10fr [bottom];
   }
 }
 
@@ -34,33 +34,33 @@
   grid-column-start: mid;
   grid-column-end: right;
   grid-row-start: skills;
-  grid-row-end: experience;
-}
-
-.gi-education {
-  grid-column-start: left;
-  grid-column-end: mid;
-  grid-row-start: volunteering;
-  grid-row-end: education;
+  grid-row-end: awards;
 }
 
 .gi-awards {
-  grid-column-start: mid;
-  grid-column-end: right;
-  grid-row-start: experience;
+  grid-column-start: left;
+  grid-column-end: mid;
+  grid-row-start: volunteering;
   grid-row-end: awards;
 }
 
 .gi-interests {
   grid-column-start: left;
   grid-column-end: mid;
-  grid-row-start: education;
-  grid-row-end: bottom;
+  grid-row-start: awards;
+  grid-row-end: interests;
 }
 
-.gi-contacts {
+.gi-education {
   grid-column-start: mid;
   grid-column-end: right;
   grid-row-start: awards;
+  grid-row-end: interests;
+}
+
+.gi-contacts {
+  grid-column-start: left;
+  grid-column-end: right;
+  grid-row-start: interests;
   grid-row-end: bottom;
 }
