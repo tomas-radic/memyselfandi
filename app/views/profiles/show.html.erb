@@ -15,6 +15,10 @@
       <%= link_to 'Github', 'https://github.com/tomas-radic', class: 'fc-white text-decoration-underline', target: :_blank %>
       <%= link_to 'LinkedIn', 'https://www.linkedin.com/in/tomas-radic', class: 'fc-white text-decoration-underline', target: :_blank %>
     </div>
+    <div class="mt-1">
+      <%= link_to 'Get PDF', profiles_download_path(format: :pdf), target: :_blank, class: 'fc-white text-decoration-underline' %>
+      <span class="fs-minor">(PDF compilation takes some time)</span>
+    </div>
 
     <div class="subheading mt-4">ABOUT ME</div>
     <div class="mt-4 text-justify">

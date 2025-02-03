@@ -139,6 +139,8 @@ GEM
     google-protobuf (4.29.3-x86_64-linux)
       bigdecimal
       rake (>= 13)
+    grover (1.2.3)
+      nokogiri (~> 1)
     i18n (1.14.7)
       concurrent-ruby (~> 1.0)
     importmap-rails (2.1.0)
@@ -426,6 +428,7 @@ DEPENDENCIES
   capybara
   dartsass-rails
   debug
+  grover
   importmap-rails
   jbuilder
   kamal
