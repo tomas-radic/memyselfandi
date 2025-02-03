@@ -46,7 +46,13 @@
   }
 }
 
-.palette4 {
+.palette-terminal {
+  @extend .font-inconsolata;
 
+  background-color: $color-graphit;
+  color: $color-terminal;
+
+  .subheading {
+    @extend .fs-subheading;
+  }
 }
-
