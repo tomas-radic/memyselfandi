@@ -1,11 +1,18 @@
 <div class="grid-container">
   <div class="gi-about box rounded-box palette1">
-    <div class="fs-heading">Tomáš Radič</div>
-    <div class="fs-subheading pt-sans-regular-italic">
-      developer<br>web apps<br>internet services
+    <div class="d-flex justify-content-between flex-wrap">
+      <div class="mb-2">
+        <div class="fs-heading">Tomáš Radič</div>
+        <div class="fs-subheading pt-sans-regular-italic">
+          developer<br>web apps<br>internet services
+        </div>
+      </div>
+      <div>
+        <%= image_tag 'memyselfandi1.jpg', height: 200, class: 'rounded-2 box-shadow' %>
+      </div>
     </div>
 
-    <div class="mt-4">Bratislava, Slovakia</div>
+    <div class="mt-2">Bratislava, Slovakia</div>
     <div class="mt-1"><%= link_to '+421 905 289 248', 'tel:+421905289248', class: 'fc-white' %></div>
     <div class="mt-1"><%= link_to '+420 606 727 165', 'tel:+420606727165', class: 'fc-white' %></div>
     <div class="mt-1">
