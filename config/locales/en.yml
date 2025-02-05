@@ -35,6 +35,16 @@ en:
     paragraph2: "Since 2014 I have been fully focusing on and working with Ruby on Rails open source framework together with Rails related technologies. I find it to be very interesting and powerful for web development and internet services. I strongly prefer to apply design first methodology and single competence unit tested classes pattern together with test driven development for which I use RSpec."
     paragraph3: "I am mostly interested in middle/small projects like startups where everything needs to be built from zero to MVP and further. My weekly capacity for the project is usually 28-32 hours."
     subheading: "ABOUT ME"
+  awards:
+    accenture:
+      description: "Winner of internal Accenture competition of innovations. I created a desktop C#/.NET application watching tickets assigned to a workgroup with notifications and statistics. This solution ensured the high priority tickets to be no more overlooked."
+      heading: "Accenture innovation competition winner"
+      year: "2010"
+    university:
+      description: "At the end of my studies I came up with my own idea for my thesis. I developed two C++/MFC based applications (Amod and Simod) that have replaced a command line based program used for transportation computing and simulation at the university. These apps added a lot of new options, loading and saving to files and a visual presentation as a Windows desktop application. I won a university competition with these apps and later they started to be used by the University of Žilina for educational purposes oﬃcially."
+      heading: "University competition winner"
+      year: "2004"
+    subheading: "AWARDS"
   experience:
     3ipk:
       gratitude_description: "Gratitude - web application where the user manages and presents the values of their products or company. The user declares the core values and/or transparencies and after the approval process they are injected as a badge on the product's e-shop webpage."
