@@ -1,27 +1,24 @@
 <div class="gi-skills box rounded-box <%= palette %>">
-  <div class="subheading">SKILLS</div>
+  <div class="subheading"><%= t('skills.subheading') %></div>
   <div class="mt-4 text-justify">
-    The stack I work with has always included RUBY ON RAILS since 2014 and I
-    still use it. My backend/frontend proportion could be expressed like 70/30. It
-    also includes:
+    <%= t('skills.paragraph1') %>
   </div>
 
   <ul>
-    <li>Ruby on Rails - since 2014 (v4)</li>
-    <li>Hotwire, Turbo (frames, streams)</li>
-    <li>Stimulus (JS controllers)</li>
-    <li>Postgres DB</li>
-    <li>REST API integrations, GraphQL</li>
-    <li>HTML, SCSS, BEM</li>
-    <li>Git</li>
+    <li><%= t('skills.rails') %></li>
+    <li><%= t('skills.hotwire') %></li>
+    <li><%= t('skills.stimulus') %></li>
+    <li><%= t('skills.postgres') %></li>
+    <li><%= t('skills.api') %></li>
+    <li><%= t('skills.styling') %></li>
+    <li><%= t('skills.git') %></li>
   </ul>
   <div class="mt-3 text-justify">
-    Except of those, longer time ago I spent a couple of years with non-web
-    programming in the MS Windows environment which I haven't done recently.
+    <%= t('skills.paragraph2') %>
   </div>
   <ul>
-    <li>C / C++ programming language (6 years overall)</li>
-    <li>MFC library</li>
-    <li>.NET desktop apps written in C#</li>
+    <li><%= t('skills.cpp') %></li>
+    <li><%= t('skills.mfc') %></li>
+    <li><%= t('skills.net') %></li>
   </ul>
 </div>
