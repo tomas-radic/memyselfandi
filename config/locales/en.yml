@@ -102,4 +102,16 @@ en:
     stimulus: "Stimulus (JS controllers)"
     styling: "HTML, SCSS, BEM"
     heading: "SKILLS"
+  volunteering:
+    heading: "VOLUNTEERING"
+    paragraph: "Beside the commercial work I attend in some volunteering projects."
+    personal_projects:
+      description: "As a passionate tennis player I have created more web applications used by my local tennis community to organize and manage summer tennis competitions. These apps sometimes change, sometimes are merged - always by current year needs."
+      heading_html: 'Personal projects - <span class="fc-silver">technical developer</span>'
+    rails_girls:
+      description: "Several times attended as a mentor in Rails Girls weekend events organized to demonstrate how applications are technically built to women interested in the information technology world."
+      heading_html: 'Rails Girls - <span class="fc-silver">mentor</span>'
+    slovensko_digital:
+      description: "Navody.digital - web application helping public people to successfully pass oﬃcial matters whenever needed. It describes steps needed to be taken with detailed explanations and some automatization when possible."
+      heading_html: 'Slovensko.Digital - <span class="fc-silver">technical developer</span>'
   name: "Tomáš Radič"
