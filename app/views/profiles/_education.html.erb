@@ -1,17 +1,14 @@
 <div class="gi-education box rounded-box <%= palette %>">
-  <div class="subheading">EDUCATION</div>
+  <div class="subheading"><%= t('education.subheading') %></div>
 
   <div>
     <div class="fs-dominant mt-2">
-      University of Žilina, Žilina, Slovakia - Ing.
+      <%= t('education.subsubheading') %>
     </div>
-    <div class="fs-minor">SEPTEMBER 1998 - MAY 2004</div>
+    <div class="fs-minor"><%= t('education.period') %></div>
     <ul>
       <li>
-        I have studied at the Faculty of Operation and Economics of Transport
-        and Communications in Žilina. It is a technical heavy study focused on
-        mechanical engineering, electrical engineering, materials, operational
-        analysis, math, physics, vehicles and transportation problems.<br>
+        <%= t('education.description') %><br>
         <%= link_to 'https://fpedas.uniza.sk/sk', 'https://fpedas.uniza.sk/sk', class: 'fc-fire', target: :_blank %>
       </li>
     </ul>

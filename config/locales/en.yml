@@ -45,6 +45,11 @@ en:
       heading: "University competition winner"
       year: "2004"
     subheading: "AWARDS"
+  education:
+    description: "I have studied at the Faculty of Operation and Economics of Transport and Communications in Žilina. It is a technical heavy study focused on mechanical engineering, electrical engineering, materials, operational analysis, math, physics, vehicles and transportation problems."
+    period: "SEPTEMBER 1998 - MAY 2004"
+    subheading: "EDUCATION"
+    subsubheading: "University of Žilina, Žilina, Slovakia - Ing."
   experience:
     3ipk:
       gratitude_description: "Gratitude - web application where the user manages and presents the values of their products or company. The user declares the core values and/or transparencies and after the approval process they are injected as a badge on the product's e-shop webpage."
