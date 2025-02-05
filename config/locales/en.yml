@@ -75,6 +75,12 @@ en:
     paragraph1: "Since 2014 I have been working as self-employed attending many startups or mid/small projects often built from the very beginning to the functioning application. To name a few:"
     paragraph2: "(Older projects can be discussed personally. If any included link is not working the app may have been later shut down by the owner for any business reason as it happens to startups.)"
     subheading: "EXPERIENCE"
+  interests:
+    guitar: "Electric guitar jamming - I love to jam over bluesy/jazzy/funk music on my electric guitar every day."
+    other: "Meeting friends, talking, spending time in nature, travelling."
+    paragraph: "Beside the fact that computer programming is my favourite hobby used also for living I have several more to mention."
+    subheading: "HOBBIES / INTERESTS"
+    tennis: "Tennis - I have been a passionate tennis player since 2003 until now. I do attend a lot of tournaments and leagues and I also organize a summer-long tennis competition in my original hometown every year. I still practice a lot and attend training sessions every week."
   skills:
     api: "REST API integrations, GraphQL"
     cpp: "C / C++ programming language (6 years overall)"
