@@ -28,4 +28,11 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  about:
+    bratislava_slovakia: "Bratislava, Slovakia"
+    business_description_html: "developer<br>web apps<br>internet services"
+    paragraph1: "Welcome! My name is Tomas, I am a web developer living mostly in Bratislava, Slovakia. I am passionate about programming and I like the focus on the best solution I can come up with. I believe the passion is the key point to keep improving, discovering and bringing the best value I can give."
+    paragraph2: "Since 2014 I have been fully focusing on and working with Ruby on Rails open source framework together with Rails related technologies. I find it to be very interesting and powerful for web development and internet services. I strongly prefer to apply design first methodology and single competence unit tested classes pattern together with test driven development for which I use RSpec."
+    paragraph3: "I am mostly interested in middle/small projects like startups where everything needs to be built from zero to MVP and further. My weekly capacity for the project is usually 28-32 hours."
+    subheading: "ABOUT ME"
+  name: "Tomáš Radič"

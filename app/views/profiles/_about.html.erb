@@ -1,9 +1,9 @@
 <div class="gi-about box rounded-box <%= palette %>">
   <div class="d-flex justify-content-between flex-wrap">
     <div class="mb-2">
-      <div class="fs-heading">Tomáš Radič</div>
+      <div class="fs-heading"><%= t('name') %></div>
       <div class="fs-subheading pt-sans-regular-italic">
-        developer<br>web apps<br>internet services
+        <%= t('about.business_description_html') %>
       </div>
     </div>
     <div>
@@ -11,7 +11,7 @@
     </div>
   </div>
 
-  <div class="mt-2">Bratislava, Slovakia</div>
+  <div class="mt-2"><%= t('about.bratislava_slovakia') %></div>
   <div class="mt-1"><%= link_to '+421 905 289 248', 'tel:+421905289248', class: 'fc-white' %></div>
   <div class="mt-1"><%= link_to '+420 606 727 165', 'tel:+420606727165', class: 'fc-white' %></div>
   <div class="mt-1">
@@ -22,23 +22,14 @@
     <%= link_to 'LinkedIn', 'https://www.linkedin.com/in/tomas-radic', class: 'fc-white text-decoration-underline', target: :_blank %>
   </div>
 
-  <div class="subheading mt-4">ABOUT ME</div>
+  <div class="subheading mt-4"><%= t('about.subheading') %></div>
   <div class="mt-4 text-justify">
-    Welcome! My name is Tomas, I am a web developer living mostly in Bratislava,
-    Slovakia. I am passionate about programming and I like the focus on the best
-    solution I can come up with. I believe the passion is the key point to keep
-    improving, discovering and bringing the best value I can give.
+    <%= t('about.paragraph1') %>
   </div>
   <div class="mt-3 text-justify">
-    Since 2014 I have been fully focusing on and working with Ruby on Rails open
-    source framework together with Rails related technologies. I find it to be very
-    interesting and powerful for web development and internet services. I strongly
-    prefer to apply design first methodology and single competence unit tested
-    classes pattern together with test driven development for which I use RSpec.
+    <%= t('about.paragraph2') %>
   </div>
   <div class="mt-3 text-justify">
-    I am mostly interested in middle/small projects like startups where everything
-    needs to be built from zero to MVP and further. My weekly capacity for the
-    project is usually 28-32 hours.
+    <%= t('about.paragraph3') %>
   </div>
 </div>
