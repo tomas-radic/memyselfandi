@@ -75,6 +75,9 @@ jobs:
           ruby-version: .ruby-version
           bundler-cache: true
 
+      - name: Build sass files
+        run: bundle exec rails dartsass:build
+
       - name: Run tests
         env:
           RAILS_ENV: test
