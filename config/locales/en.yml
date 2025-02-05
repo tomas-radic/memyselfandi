@@ -35,6 +35,36 @@ en:
     paragraph2: "Since 2014 I have been fully focusing on and working with Ruby on Rails open source framework together with Rails related technologies. I find it to be very interesting and powerful for web development and internet services. I strongly prefer to apply design first methodology and single competence unit tested classes pattern together with test driven development for which I use RSpec."
     paragraph3: "I am mostly interested in middle/small projects like startups where everything needs to be built from zero to MVP and further. My weekly capacity for the project is usually 28-32 hours."
     subheading: "ABOUT ME"
+  experience:
+    3ipk:
+      gratitude_description: "Gratitude - web application where the user manages and presents the values of their products or company. The user declares the core values and/or transparencies and after the approval process they are injected as a badge on the product's e-shop webpage."
+      heading: "3IPK - technical developer"
+      period: "SEPTEMBER 2022 - PRESENT"
+      siplabel_description: "Siplabel - web application as a digital wine bottle label accessible by a QR code. This is used to publish detailed information about the product and its ingredients to match the EU requirements."
+    accenture:
+      description: "My first regular full-time job in Accenture included projects with some development in C programming language, C# language and the Microsoft .NET technology. Beside that I attended other system maintenance projects."
+      heading: "Accenture Technology Solutions - technical developer / maintenance"
+      period: "SEPTEMBER 2004 - NOVEMBER 2013"
+    creatake:
+      description: "Creatake - web application used to create, maintain and deploy a static web page mostly for presentation purposes. It is used by graphic designers who deliver static web pages to their clients."
+      heading: "Creatake - technical developer"
+      period: "MAY 2020 - JULY 2022"
+    easy_software:
+      description: "Client zone - middleware system between a Vue frontend application (GraphQL) and a target system (REST API)."
+      heading: "Easy Software - technical developer"
+      period: "OCTOBER 2019 - MAY 2020"
+    freevision:
+      heading: "Freevision - technical developer"
+      period: "JANUARY 2018 - SEPTEMBER 2019"
+      slovak_lines_description: "SlovakLines - web application used to search a bus connection and the ride ticket purchase."
+      wilio_description: "Wilio - web application that connects public people seeking a certain kind of service with the providers of that service in their area. It has been shut down by the owner after several years."
+    orderlord:
+      description: "Orderlord - web application with many remote system integrations. The application is used by restaurants to manage their optimal food delivery. It includes many integrations to other ordering systems as well as connection to the POS terminal."
+      heading: "Orderlord - technical developer"
+      period: "MAY 2015 - JANUARY 2018"
+    paragraph1: "Since 2014 I have been working as self-employed attending many startups or mid/small projects often built from the very beginning to the functioning application. To name a few:"
+    paragraph2: "(Older projects can be discussed personally. If any included link is not working the app may have been later shut down by the owner for any business reason as it happens to startups.)"
+    subheading: "EXPERIENCE"
   skills:
     api: "REST API integrations, GraphQL"
     cpp: "C / C++ programming language (6 years overall)"
