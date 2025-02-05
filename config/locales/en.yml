@@ -34,7 +34,7 @@ en:
     paragraph1: "Welcome! My name is Tomas, I am a web developer living mostly in Bratislava, Slovakia. I am passionate about programming and I like the focus on the best solution I can come up with. I believe the passion is the key point to keep improving, discovering and bringing the best value I can give."
     paragraph2: "Since 2014 I have been fully focusing on and working with Ruby on Rails open source framework together with Rails related technologies. I find it to be very interesting and powerful for web development and internet services. I strongly prefer to apply design first methodology and single competence unit tested classes pattern together with test driven development for which I use RSpec."
     paragraph3: "I am mostly interested in middle/small projects like startups where everything needs to be built from zero to MVP and further. My weekly capacity for the project is usually 28-32 hours."
-    subheading: "ABOUT ME"
+    heading: "ABOUT ME"
   awards:
     accenture:
       description: "Winner of internal Accenture competition of innovations. I created a desktop C#/.NET application watching tickets assigned to a workgroup with notifications and statistics. This solution ensured the high priority tickets to be no more overlooked."
@@ -44,14 +44,14 @@ en:
       description: "At the end of my studies I came up with my own idea for my thesis. I developed two C++/MFC based applications (Amod and Simod) that have replaced a command line based program used for transportation computing and simulation at the university. These apps added a lot of new options, loading and saving to files and a visual presentation as a Windows desktop application. I won a university competition with these apps and later they started to be used by the University of Žilina for educational purposes oﬃcially."
       heading: "University competition winner"
       year: "2004"
-    subheading: "AWARDS"
+    heading: "AWARDS"
   contacts:
-    subheading: "CONTACTS"
+    heading: "CONTACTS"
   education:
     description: "I have studied at the Faculty of Operation and Economics of Transport and Communications in Žilina. It is a technical heavy study focused on mechanical engineering, electrical engineering, materials, operational analysis, math, physics, vehicles and transportation problems."
     period: "SEPTEMBER 1998 - MAY 2004"
-    subheading: "EDUCATION"
-    subsubheading: "University of Žilina, Žilina, Slovakia - Ing."
+    heading: "EDUCATION"
+    subheading: "University of Žilina, Žilina, Slovakia - Ing."
   experience:
     3ipk:
       gratitude_description: "Gratitude - web application where the user manages and presents the values of their products or company. The user declares the core values and/or transparencies and after the approval process they are injected as a badge on the product's e-shop webpage."
@@ -81,12 +81,12 @@ en:
       period: "MAY 2015 - JANUARY 2018"
     paragraph1: "Since 2014 I have been working as self-employed attending many startups or mid/small projects often built from the very beginning to the functioning application. To name a few:"
     paragraph2: "(Older projects can be discussed personally. If any included link is not working the app may have been later shut down by the owner for any business reason as it happens to startups.)"
-    subheading: "EXPERIENCE"
+    heading: "EXPERIENCE"
   interests:
     guitar: "Electric guitar jamming - I love to jam over bluesy/jazzy/funk music on my electric guitar every day."
     other: "Meeting friends, talking, spending time in nature, travelling."
     paragraph: "Beside the fact that computer programming is my favourite hobby used also for living I have several more to mention."
-    subheading: "HOBBIES / INTERESTS"
+    heading: "HOBBIES / INTERESTS"
     tennis: "Tennis - I have been a passionate tennis player since 2003 until now. I do attend a lot of tournaments and leagues and I also organize a summer-long tennis competition in my original hometown every year. I still practice a lot and attend training sessions every week."
   skills:
     api: "REST API integrations, GraphQL"
@@ -101,5 +101,5 @@ en:
     rails: "Ruby on Rails - since 2014 (v4)"
     stimulus: "Stimulus (JS controllers)"
     styling: "HTML, SCSS, BEM"
-    subheading: "SKILLS"
+    heading: "SKILLS"
   name: "Tomáš Radič"
