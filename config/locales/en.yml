@@ -28,4 +28,90 @@
 #       enabled: "ON"
 
 en:
-  hello: "Hello world"
+  about:
+    bratislava_slovakia: "Bratislava, Slovakia"
+    business_description_html: "developer<br>web apps<br>internet services"
+    paragraph1: "Welcome! My name is Tomas, I am a web developer living mostly in Bratislava, Slovakia. I am passionate about programming and I like the focus on the best solution I can come up with. I believe the passion is the key point to keep improving, discovering and bringing the best value I can give."
+    paragraph2: "Since 2014 I have been fully focusing on and working with Ruby on Rails open source framework together with Rails related technologies. I find it to be very interesting and powerful for web development and internet services. I strongly prefer to apply design first methodology and single competence unit tested classes pattern together with test driven development for which I use RSpec."
+    paragraph3: "I am mostly interested in middle/small projects like startups where everything needs to be built from zero to MVP and further. My weekly capacity for the project is usually 28-32 hours."
+    heading: "ABOUT ME"
+  awards:
+    accenture:
+      description: "Winner of internal Accenture competition of innovations. I created a desktop C#/.NET application watching tickets assigned to a workgroup with notifications and statistics. This solution ensured the high priority tickets to be no more overlooked."
+      heading: "Accenture innovation competition winner"
+      year: "2010"
+    university:
+      description: "At the end of my studies I came up with my own idea for my thesis. I developed two C++/MFC based applications (Amod and Simod) that have replaced a command line based program used for transportation computing and simulation at the university. These apps added a lot of new options, loading and saving to files and a visual presentation as a Windows desktop application. I won a university competition with these apps and later they started to be used by the University of Žilina for educational purposes oﬃcially."
+      heading: "University competition winner"
+      year: "2004"
+    heading: "AWARDS"
+  contacts:
+    heading: "CONTACTS"
+  education:
+    description: "I have studied at the Faculty of Operation and Economics of Transport and Communications in Žilina. It is a technical heavy study focused on mechanical engineering, electrical engineering, materials, operational analysis, math, physics, vehicles and transportation problems."
+    period: "SEPTEMBER 1998 - MAY 2004"
+    heading: "EDUCATION"
+    subheading: "University of Žilina, Žilina, Slovakia - Ing."
+  experience:
+    3ipk:
+      gratitude_description: "Gratitude - web application where the user manages and presents the values of their products or company. The user declares the core values and/or transparencies and after the approval process they are injected as a badge on the product's e-shop webpage."
+      heading: "3IPK - technical developer"
+      period: "SEPTEMBER 2022 - PRESENT"
+      siplabel_description: "Siplabel - web application as a digital wine bottle label accessible by a QR code. This is used to publish detailed information about the product and its ingredients to match the EU requirements."
+    accenture:
+      description: "My first regular full-time job in Accenture included projects with some development in C programming language, C# language and the Microsoft .NET technology. Beside that I attended other system maintenance projects."
+      heading: "Accenture Technology Solutions - technical developer / maintenance"
+      period: "SEPTEMBER 2004 - NOVEMBER 2013"
+    creatake:
+      description: "Creatake - web application used to create, maintain and deploy a static web page mostly for presentation purposes. It is used by graphic designers who deliver static web pages to their clients."
+      heading: "Creatake - technical developer"
+      period: "MAY 2020 - JULY 2022"
+    easy_software:
+      description: "Client zone - middleware system between a Vue frontend application (GraphQL) and a target system (REST API)."
+      heading: "Easy Software - technical developer"
+      period: "OCTOBER 2019 - MAY 2020"
+    freevision:
+      heading: "Freevision - technical developer"
+      period: "JANUARY 2018 - SEPTEMBER 2019"
+      slovak_lines_description: "SlovakLines - web application used to search a bus connection and the ride ticket purchase."
+      wilio_description: "Wilio - web application that connects public people seeking a certain kind of service with the providers of that service in their area. It has been shut down by the owner after several years."
+    orderlord:
+      description: "Orderlord - web application with many remote system integrations. The application is used by restaurants to manage their optimal food delivery. It includes many integrations to other ordering systems as well as connection to the POS terminal."
+      heading: "Orderlord - technical developer"
+      period: "MAY 2015 - JANUARY 2018"
+    paragraph1: "Since 2014 I have been working as self-employed attending many startups or mid/small projects often built from the very beginning to the functioning application. To name a few:"
+    paragraph2: "(Older projects can be discussed personally. If any included link is not working the app may have been later shut down by the owner for any business reason as it happens to startups.)"
+    heading: "EXPERIENCE"
+  interests:
+    guitar: "Electric guitar jamming - I love to jam over bluesy/jazzy/funk music on my electric guitar every day."
+    other: "Meeting friends, talking, spending time in nature, travelling."
+    paragraph: "Beside the fact that computer programming is my favourite hobby used also for living I have several more to mention."
+    heading: "HOBBIES / INTERESTS"
+    tennis: "Tennis - I have been a passionate tennis player since 2003 until now. I do attend a lot of tournaments and leagues and I also organize a summer-long tennis competition in my original hometown every year. I still practice a lot and attend training sessions every week."
+  skills:
+    api: "REST API integrations, GraphQL"
+    cpp: "C / C++ programming language (6 years overall)"
+    git: "Git"
+    hotwire: "Hotwire, Turbo (frames, streams)"
+    mfc: "MFC library"
+    net: ".NET desktop apps written in C#"
+    paragraph1: "The stack I work with has always included RUBY ON RAILS since 2014 and I still use it. My backend/frontend proportion could be expressed like 70/30. It also includes:"
+    paragraph2: "Except of those, longer time ago I spent a couple of years with non-web programming in the MS Windows environment which I haven't done recently."
+    postgres: "Postgres DB"
+    rails: "Ruby on Rails - since 2014 (v4)"
+    stimulus: "Stimulus (JS controllers)"
+    styling: "HTML, SCSS, BEM"
+    heading: "SKILLS"
+  volunteering:
+    heading: "VOLUNTEERING"
+    paragraph: "Beside the commercial work I attend in some volunteering projects."
+    personal_projects:
+      description: "As a passionate tennis player I have created more web applications used by my local tennis community to organize and manage summer tennis competitions. These apps sometimes change, sometimes are merged - always by current year needs."
+      heading_html: 'Personal projects - <span class="fc-silver">technical developer</span>'
+    rails_girls:
+      description: "Several times attended as a mentor in Rails Girls weekend events organized to demonstrate how applications are technically built to women interested in the information technology world."
+      heading_html: 'Rails Girls - <span class="fc-silver">mentor</span>'
+    slovensko_digital:
+      description: "Navody.digital - web application helping public people to successfully pass oﬃcial matters whenever needed. It describes steps needed to be taken with detailed explanations and some automatization when possible."
+      heading_html: 'Slovensko.Digital - <span class="fc-silver">technical developer</span>'
+  name: "Tomáš Radič"

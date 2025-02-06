@@ -1,0 +1,20 @@
+<div class="gi-contacts box rounded-box">
+  <div class="d-flex justify-content-center py-4">
+    <section class="text-center">
+      <div class="fs-subheading pt-sans-bold-italic"><%= t('contacts.heading') %></div>
+      <div class="mt-4 fs-dominant fc-white"><%= t('name') %></div>
+      <div class="mt-2"><%= link_to '+421 905 289 248', 'tel:+421905289248', class: 'fc-white' %></div>
+      <div class="mt-1"><%= link_to '+420 606 727 165', 'tel:+420606727165', class: 'fc-white' %></div>
+      <div class="mt-1">
+        <%= link_to 'tomas.radic@gmail.com', 'mailto:tomas.radic@gmail.com', class: 'fc-white' %>
+      </div>
+      <div class="mt-1">
+        <%= link_to 'Github', 'https://github.com/tomas-radic', class: 'fc-white', target: :_blank %>
+        <%= link_to 'LinkedIn', 'https://www.linkedin.com/in/tomas-radic', class: 'fc-white', target: :_blank %>
+      </div>
+      <div class="mt-1">
+        <%= link_to 'Get PDF', profiles_download_path(format: :pdf), target: :_blank, class: 'fc-white' %>
+      </div>
+    </section>
+  </div>
+</div>
