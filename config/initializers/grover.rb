@@ -12,7 +12,7 @@ Grover.configure do |config|
     cache: false,
     timeout: 0,
     launch_args: %w[--font-render-hinting=medium --no-sandbox],
-    margin: { top: 60, right: 30, bottom: 60, left: 30 },
+    margin: { top: '10px', right: '10px', bottom: '10px', left: '10px' },
     scale: 0.85
   }
 end

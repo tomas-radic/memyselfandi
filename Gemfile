@@ -42,7 +42,8 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "pg"
-gem "dartsass-rails"
+gem 'sass-rails'
+gem "autoprefixer-rails"
 gem "bootstrap", "~> 5.3.3"
 gem 'grover'
 

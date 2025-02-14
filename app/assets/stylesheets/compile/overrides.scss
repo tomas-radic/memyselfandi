@@ -1,0 +1,62 @@
+.page {
+  background-color: unset;
+  color: unset;
+}
+
+.fc-silver,
+.fc-white,
+.fc-terminal,
+.fc-fire {
+  color: unset;
+}
+
+.page-break {
+  page-break-before: always;
+}
+
+.palette1 {
+  .subheading {
+    @extend .pt-sans-bold-italic;
+    @extend .fs-subheading;
+
+    //color: $color-yellow;
+  }
+
+  //a {
+  //  text-decoration: none;
+  //}
+}
+
+.palette2 {
+  .subheading {
+    @extend .pt-sans-bold-italic;
+    @extend .fs-subheading;
+
+    //color: $color-fire;
+  }
+
+  //a {
+  //  text-decoration: none;
+  //}
+}
+
+.palette3 {
+  .subheading {
+    @extend .pt-sans-bold-italic;
+    @extend .fs-subheading;
+
+    //color: $color-yellow;
+  }
+
+  //a {
+  //  text-decoration: none;
+  //}
+}
+
+.palette-terminal {
+  @extend .font-inconsolata;
+
+  .subheading {
+    @extend .fs-subheading;
+  }
+}

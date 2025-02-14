@@ -1,3 +1,5 @@
+// FONT SIZE ----- v
+
 .fs-heading {
   @extend .pt-sans-bold;
 
@@ -16,6 +18,9 @@
   font-size: 0.8rem;
 }
 
+
+// FONT COLOR ----- v
+
 .fc-silver {
   color: $color-silver;
 }
@@ -31,6 +36,13 @@
 .fc-terminal {
   color: $color-terminal;
 }
+
+.fc-graphit {
+  color: $color-graphit;
+}
+
+
+// OTHER ----- v
 
 .text-justify {
   text-justify: auto;

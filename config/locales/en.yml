@@ -46,6 +46,8 @@ en:
       year: "2004"
     heading: "AWARDS"
   contacts:
+    compile_link_label: compile new pdf (may take time)
+    download_link_label: download pdf
     heading: "CONTACTS"
   education:
     description: "I have studied at the Faculty of Operation and Economics of Transport and Communications in Žilina. It is a technical heavy study focused on mechanical engineering, electrical engineering, materials, operational analysis, math, physics, vehicles and transportation problems."
@@ -88,6 +90,10 @@ en:
     paragraph: "Beside the fact that computer programming is my favourite hobby used also for living I have several more to mention."
     heading: "HOBBIES / INTERESTS"
     tennis: "Tennis - I have been a passionate tennis player since 2003 until now. I do attend a lot of tournaments and leagues and I also organize a summer-long tennis competition in my original hometown every year. I still practice a lot and attend training sessions every week."
+  profiles:
+    compile:
+      web_link_label: "My web profile"
+      web_link_url: "https://tomasradic-4339dc845cd9.herokuapp.com/"
   skills:
     api: "REST API integrations, GraphQL"
     cpp: "C / C++ programming language (6 years overall)"

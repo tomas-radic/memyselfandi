@@ -25,7 +25,7 @@ module Memyselfandi
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
 
-    config.asset_host
+    # config.asset_host
     config.middleware.use Grover::Middleware
   end
 end

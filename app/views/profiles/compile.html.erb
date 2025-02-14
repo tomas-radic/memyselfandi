@@ -1,0 +1,15 @@
+<div class="grid-container">
+  <%= render 'profiles/about', palette: 'palette1' %>
+  <div class="page-break"></div>
+  <%= render 'profiles/skills', palette: 'palette1' %>
+  <%= render 'profiles/experience', palette: 'palette1' %>
+  <%= render 'profiles/volunteering', palette: 'palette1' %>
+  <div class="page-break"></div>
+  <%= render 'profiles/awards', palette: 'palette1' %>
+  <%= render 'profiles/education', palette: 'palette1' %>
+  <%= render 'profiles/interests', palette: 'palette1' %>
+
+  <div class="box rounded-box py-4">
+    <%= link_to t('.web_link_label'), t('.web_link_url'), class: 'fc-white', target: :_blank %>
+  </div>
+</div>
