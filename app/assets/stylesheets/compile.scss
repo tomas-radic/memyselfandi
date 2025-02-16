@@ -10,7 +10,7 @@
 @import "reset";
 
 // Custom bootstrap variables must be set or imported *before* bootstrap.
-@import "../../../../../.rbenv/versions/3.3.6/lib/ruby/gems/3.3.0/gems/bootstrap-5.3.3/assets/stylesheets/bootstrap";
+@import "bootstrap";
 @import "bootstrap_customization";
 
 @import "utilities";
