@@ -42,10 +42,10 @@ gem "thruster", require: false
 # gem "image_processing", "~> 1.2"
 
 gem "pg"
-gem 'sass-rails'
+gem "sass-rails"
 gem "autoprefixer-rails"
 gem "bootstrap", "~> 5.3.3"
-gem 'grover'
+gem "grover"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
