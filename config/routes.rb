@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   root to: "profiles#show"
   get "profiles/show"
-  get "profiles/compile"
+  # get "profiles/compile"
   get "profiles/download"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
