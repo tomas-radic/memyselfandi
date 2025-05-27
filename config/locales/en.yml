@@ -93,7 +93,7 @@ en:
   profiles:
     compile:
       web_link_label: "My web profile"
-      web_link_url: "https://tomasradic-4339dc845cd9.herokuapp.com/"
+      web_link_url: "https://memyselfandi-ffcd1ba9d9e2.herokuapp.com/"
   skills:
     api: "REST API integrations, GraphQL"
     cpp: "C / C++ programming language (6 years overall)"
