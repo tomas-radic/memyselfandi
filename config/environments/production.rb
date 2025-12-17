@@ -4,6 +4,7 @@ Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   config.secret_key_base = Rails.application.credentials.secret_key_base
+  config.read_encrypted_secrets = true
 
   # Code is not reloaded between requests.
   config.enable_reloading = false
