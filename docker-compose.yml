@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16.11-alpine3.23
+    container_name: memyselfandi-postgres
+    restart: unless-stopped
+    user: postgres
+    environment:
+      POSTGRES_USER: dummy_pg_user
+      POSTGRES_PASSWORD: dummy_pg_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-scripts:/docker-entrypoint-initdb.d
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+  redis_data:
+  pgadmin_data:
