@@ -27,9 +27,9 @@ jobs:
 #      - name: Security audit dependencies
 #        run: bin/bundler-audit --update
       - name: Security audit application code
-        run: bin/brakeman --no-check-version
+        run: bundle exec brakeman --no-check-version
       - name: Lint Ruby files
-        run: bin/rubocop --parallel
+        run: bundle exec rubocop --parallel
 
   test:
     runs-on: ubuntu-latest
