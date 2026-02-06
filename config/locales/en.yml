@@ -94,7 +94,7 @@ en:
   profiles:
     compile:
       web_link_label: "My web profile"
-      web_link_url: "https://memyselfandi-ffcd1ba9d9e2.herokuapp.com/"
+      web_link_url: "https://webiky.online"
   skills:
     api: "REST API integrations, GraphQL"
     cpp: "C / C++ programming language (6 years overall)"
