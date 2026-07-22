@@ -7,15 +7,24 @@ class ProfilesController < ApplicationController
   end
 
   def compile
+    return incorrect_key if ENV["COMPILE_KEY"].blank?
+    return incorrect_key unless ActiveSupport::SecurityUtils.secure_compare(
+      params[:key].to_s, ENV["COMPILE_KEY"]
+    )
+
     html = render_to_string(
       "profiles/compile", layout: "compile", formats: [:html]
     )
 
     pdf = Grover.new(html, format: "A4").to_pdf
+    File.binwrite(Rails.root.join("public/profile.pdf"), pdf)
 
-    respond_to do |format|
-      format.html { render html: html }
-      format.pdf { send_data pdf, filename: "tomas-radic.pdf", type: "application/pdf" }
-    end
+    redirect_to root_path, flash: { success: "Recompiled" }
+  end
+
+  private
+
+  def incorrect_key
+    redirect_to root_path, flash: { error: "Incorrect key" }
   end
 end

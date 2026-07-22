@@ -46,7 +46,7 @@ en:
       year: "2004"
     heading: "AWARDS"
   contacts:
-    compile_link_label: compile new pdf (may take time)
+    compile_link_label: recompile pdf
     download_link_label: download pdf
     heading: "CONTACTS"
   education:

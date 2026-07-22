@@ -7,7 +7,7 @@
       </div>
     </div>
     <div>
-      <%= image_tag 'memyselfandi1.jpg', height: 200, class: 'rounded-2 box-shadow' %>
+      <%= profile_image_tag 'memyselfandi1.jpg', height: 200, class: 'rounded-2 box-shadow', inline: local_assigns[:pdf].present? %>
     </div>
   </div>
 

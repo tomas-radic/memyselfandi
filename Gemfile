@@ -59,6 +59,7 @@ group :development, :test do
 
   gem "rspec-rails"
   gem "rails-controller-testing"
+  gem "dotenv-rails"
   # gem "bundler-audit"
 end
 

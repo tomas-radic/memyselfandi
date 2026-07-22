@@ -17,6 +17,24 @@ html {
   // Sticky footer --- ^
 }
 
+.flash {
+  font-size: 0.7rem;
+  line-height: 1.2;
+  padding: 2px 4px;
+  text-align: center;
+  color: $color-graphit;
+}
+
+.flash--success { background-color: #c8f7c5; }
+.flash--error { background-color: #f5a623; }
+
+.compile-link {
+  padding: 0;
+  background: none;
+  font: inherit;
+  cursor: pointer;
+}
+
 .box {
   padding: 18px 18px;
   //min-height: 400px;

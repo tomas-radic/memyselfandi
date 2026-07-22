@@ -24,12 +24,14 @@
   </head>
 
   <body class="page">
+    <% flash.each do |type, message| %>
+      <div class="flash flash--<%= type %>"><%= message %></div>
+    <% end %>
+
     <main>
       <div class="container-fluid">
         <%= yield %>
       </div>
     </main>
-
-    <%#= render "shared/footer" %>
   </body>
 </html>

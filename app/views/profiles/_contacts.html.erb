@@ -15,9 +15,14 @@
       <div class="mt-1">
         <%= link_to t('contacts.download_link_label'), profiles_download_path, target: :_blank, class: 'fc-white' %>
       </div>
-<!--      <div class="mt-1">-->
-        <%#= link_to t('contacts.compile_link_label'), profiles_compile_path(format: :pdf), target: :_blank, class: 'fc-graphit' %>
-<!--      </div>-->
+      <% if Rails.env.development? %>
+        <div class="mt-1">
+          <%= form_with url: profiles_compile_path, method: :post, data: { controller: "compile" } do |f| %>
+            <%= f.hidden_field :key, data: { compile_target: "key" } %>
+            <button type="button" class="compile-link fc-grey" data-action="compile#submit"><%= t('contacts.compile_link_label') %></button>
+          <% end %>
+        </div>
+      <% end %>
     </section>
   </div>
 </div>

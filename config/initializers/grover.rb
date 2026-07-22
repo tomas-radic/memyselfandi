@@ -1,6 +1,7 @@
 Grover.configure do |config|
+  node_bin = ENV["NODE_BIN_PATH"].presence
   config.node_env_vars = {
-    "PATH" => "/Users/tomik/.nvm/versions/node/v22.13.1/bin:#{ENV['PATH']}"
+    "PATH" => [node_bin, ENV["PATH"]].compact.join(File::PATH_SEPARATOR)
   }
   config.use_pdf_middleware = true
   config.options = {
